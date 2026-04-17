@@ -1,0 +1,29 @@
+SISTEMA DE ALARME - ESP32
+
+DESCRIÇÃO
+Este projeto consiste no desenvolvimento de um sistema de alarme utilizando ESP32, com o objetivo de simular uma solução de segurança simples e funcional. A proposta é demonstrar, de forma prática, a integração entre sensores, atuadores e lógica embarcada para monitoramento de ambientes.
+
+FUNCIONAMENTO
+
+* Sensor PIR detecta movimento
+* Buzzer é acionado como alerta sonoro
+* Botão de controle liga/desliga o sistema
+* Botão de emergência desativa o alarme imediatamente
+* Botão de área segura cancela o alerta em situações específicas
+
+CARACTERÍSTICAS
+
+* Detecção por borda (evita múltiplos acionamentos)
+* Sistema responsivo e em tempo real
+* Estrutura organizada com ESP-IDF e FreeRTOS
+
+STATUS DO PROJETO
+Versão Beta — sujeito a melhorias e expansões futuras.
+
+POSSÍVEIS MELHORIAS
+
+* Integração com Wi-Fi
+* Notificações remotas
+* Interface visual com LEDs
+* Modos avançados de alarme
+
